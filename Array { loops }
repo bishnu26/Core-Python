@@ -1,0 +1,23 @@
+1. Array { getting user input }
+..................................................................................
+* For loop 
+
+from array import*
+students=array('i',[])
+number_of_students=int(input("number of students:"))
+for i in range (number_of_students):
+    students.append(int(input("students marks:")))
+print(students)
+    
+..................................................................................
+*while loop 
+
+from array import*
+students=array('i',[])
+number_of_students=int(input("number of students:"))
+i=0
+while i<number_of_students:
+    students.append(int(input("students marks:")))
+    i+=1
+print(students)
+..................................................................................    
