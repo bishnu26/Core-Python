@@ -1,0 +1,14 @@
+append = add element to the last = name.append(element)
+instert = insert element = name.insert(position,element)
+pop = remove last element = name.pop()
+remove = remove first element = name.remove(element)
+index= return position number =name.index(element)
+reverse=reverse position of array = name.reverse()
+extend=add another array to end of the exxisting array= a.extend(b)
+..........................................................
+slicing of array 
+
+used to retrive a piece of array 
+
+new_array=array_name(start:stop:stepsize)
+...........................................................
