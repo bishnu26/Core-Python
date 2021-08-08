@@ -1,0 +1,93 @@
+Numpy 
+...........................................................
+* pip install numpy
+* scientific calculation
+* used to create n dimensional array ( n= number )
+..............................................................
+Ways to creating array in numpy
+
+1.array() function
+
+from numpy import *
+student=array([1,2,3,4])
+print(student)
+
+...............................................................
+
+ACCESSING NUMBER ARRAY USING FOR LOOP 
+
+from numpy import *
+student=array([1,2,3,4])
+x=len(student)
+print(x)
+for i in range(x):
+    print(i,"=",student[i])
+
+ACCESSING NUMPY ARRAY USING WHILE LOOP 
+
+from numpy import *
+student=array([1,2,3,4])
+x=len(student)
+i=0
+while i<x:
+    print(i,"=",student[i])
+    i+=1
+
+.................................................................
+>(student[0])    == accessing value
+>student[0]=25 == modifying value
+>(student.dtype) == to find its datatype
+
+............................................................................................................................................
+
+
+2.Linspace() function
+
+Syntax : array_name = linspace (start,stop,num=50,endpoint=true)
+
+* start = starting point
+* stop = stopping point
+* num = divide elements into 50(default) parts and indexing value)
+* endpoint = True ( include last element ) false = do not include last element
+
+example :
+
+from numpy import *
+a=linspace(1,8,5(num=in a 5 parts),endpoint=True)
+print(a)
+
+output : 
+
+[1.| 2.75 | 4.5 | 6.25 | 8. |]
+
+Five segments
+
+
+********************************
+
+accessing using for loop 
+
+from numpy import *
+a=linspace(1,8,5,endpoint=True)
+x=len(a)
+for i in range(x):
+    print(i,"=",a[i])
+    
+output :
+
+0 = 1.0
+1 = 2.75
+2 = 4.5
+3 = 6.25
+4 = 8.0
+
+accessing using while loop 
+
+from numpy import *
+a=linspace(1,8,5,endpoint=True)
+x=len(a)
+j=0
+while j<x:
+    print(j,'=',a[j])
+    j+=1
+
