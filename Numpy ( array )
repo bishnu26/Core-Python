@@ -1,3 +1,18 @@
+
+Start = starting point 
+stop = stoping point 
+num = 50 ( divide in fifty parts )
+endpoint = if true : take last element 
+           if false : do not take last element
+base = 10.0 ( power )
+arange != arrange ( bit like range () )
+dtype = datatype 
+        i = int 
+        f = float
+
+
+
+
 Numpy 
 ..............
 * pip install numpy
@@ -95,4 +110,57 @@ while j<x:
  ........................................................................................................................................
  
  3.logspace() function 
+ 
+syntax : array_name=logspace(start,stop,num=50,endpoint=True,base=10.0,dtype=None)
+start = base(10.0)power*start
+        10^start = 10^1
+stop = base(10.0)power*stop 
+       10^stop = 10^3
+       
+num= bydefault(50) - divide in a fifty parts 
+Ex : 
+from numpy import *
+a=logspace(1,3,5)
+print(a)
+
+output: 
+[  10.           31.6227766   100.          316.22776602 1000.        ]
+
+..........................................................................................................................
+
+4.Arange() function 
+
+it's arange not arrange 
+
+start-stop-stepsize 
+
+{{ bit like a range function }}
+
+ex: 
+
+from numpy import *
+a=arange(5)
+print(a)
+
+output : [0 1 2 3 4]
+
+
+....................................................................................................................
+
+5.Zeros() 
+
+used to create a arrayh all zeros 
+
+syantax : 
+
+from numpy import *
+a=zeros(5)
+print(a)
+
+output : 
+
+[0. 0. 0. 0. 0.]
+
+
+
 
