@@ -1,0 +1,29 @@
+Getting user input using For Loop 
+
+.......................................................................
+
+from numpy import *
+n=int(input("number of elements:"))
+a=zeros(n)
+for i in range(len(a)):
+    x=int(input("elements:"))
+    a[i]=x
+
+print(a)
+
+...............................................................................
+
+While loop 
+
+from numpy import *
+n=int(input("number of elements:"))
+a=zeros(n)
+m=0
+while m<len(a):
+    x=int(input("elements:"))
+    a[m]=x
+    m+=1
+
+print(a)
+
+...........................................................................
