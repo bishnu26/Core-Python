@@ -1,0 +1,57 @@
+Format method 
+
+....................................................
+
+* is used to format strings 
+* eg :("my name is {}".format(age=19))
+
+.........................................................
+
+("Replacement field".format(value))
+
+replacement field = {index/key:[fill][align][sign][#][0][width][,][.precision]dtype}
+* format specification after : (colon)
+
+- Width = minium field width 
+- [0] = padding 
+- [sign] = +, - ....
+- [ align] = left align or right align (<>^)
+- [fill] = fill with what characters 
+
+.......................................................
+#conversion_type
+
+d = signed integer decimal 
+f= float 
+s= string 
+
+....................................................
+#alignment_type
+
+< = left- aligned within avialiable space 
+> = right 
+^ = center 
+...................................................
+#sign
+
++ 
+-
+...................................................
+
+.........................................................
+'_' used for thousands seperator
+................................................................
+
+
+
+1. print("{num:5d}".format(num=15))
+output : _ _ _ 15
+
+here , 5=width , d= int
+
+.......................................................
+
+2.
+print("{num:*>5d}".format(num=15))
+
+output : * * * 15
