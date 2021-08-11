@@ -1,0 +1,51 @@
+replace () :
+
+used to replace a sub-string with another substring 
+
+string.replace (old,new )
+
+a="don"
+old="don"
+new="hero"
+print(a.replace(old,new))
+
+output - hero
+
+.................................................
+
+split () :
+
+used to split/break a string intp pieces. these pieces return as list.
+
+syntax : string.split(seperator)
+
+a="bishnu poudel"
+print(a.split(" "))
+
+output :
+
+['bishnu', 'poudel']
+
+.....................................................
+
+Join () :
+
+used to join strings into one string 
+
+syntax : "seperator".join(name)
+
+a="bishnu poudel"
+print("-".join(a))
+
+..........................................
+
+starts with = return true if string starts with ....  = 
+
+a="bishnu poudel"
+print(a.startswith("bishnu")) 
+
+true 
+
+endwith = endwith ..
+
+...................................................
