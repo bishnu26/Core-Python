@@ -1,0 +1,10 @@
+a=int(input("first num:"))
+b=int(input("second num:"))
+print(f"sum of a and b is {a+b}")
+
+output
+first num:2
+second num:2
+sum of a and b is 4
+
+..............................................................................
