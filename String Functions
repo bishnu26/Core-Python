@@ -1,0 +1,47 @@
+1. upper () function 
+
+convert all characters to upper case 
+
+a="bishnu"
+print(a.upper())  
+
+'BISHNU'
+
+.............................................
+
+2.lower () function 
+convert all characters to lower case 
+
+...............................................
+
+3.swapcase () function 
+convert all lower characters to upper and upper to lower
+
+...................................................
+
+4.title() function 
+
+start with capital and remaining with small 
+
+......................................
+
+5.
+isupper = return true if all characters are in upper case
+
+islower = true if all are in lower case
+
+istitle = true if start with upper and remaining lower
+
+isdigit = true if it's a number 
+
+isalpha = true if it's a alpha characters
+
+isspace = true if space is given 
+
+lstrip = remove left side spaces
+
+rstrip = remove right side spaces
+
+strip = remove all sides space
+
+
