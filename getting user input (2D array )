@@ -1,0 +1,46 @@
+For Loop :
+
+from numpy import *
+r=int(input("num of rows:"))
+c=int(input("num of columns:"))
+x=zeros([r,c])
+for i in range (len(x)):
+    for j in range(len(x[i])):
+        y=int(input("elements:"))
+        x[i][j]=y
+print(x)
+   
+   
+..................................
+
+while loop : 
+
+from numpy import *
+r=int(input("num of rows:"))
+c=int(input("num of columns:"))
+x=zeros([r,c])
+i=0
+while i<len(x):
+    j=0
+    while j<len(x[i]):
+        y=int(input("elements:"))
+        x[i][j]=y
+        j+=1
+    i+=1
+print(x)
+    
+    
+........................................
+
+output :
+
+num of rows:2
+num of columns:2
+elements:11
+elements:22
+elements:33
+elements:44
+
+[[11. 22.]
+ [33. 44.]]
+> 
